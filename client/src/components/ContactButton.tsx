@@ -1,15 +1,15 @@
 /**
  * Contact Button Component
- * 
+ *
  * 右下角固定的聯絡我按鈕/面板。
- * 
+ *
  * 修改位置：
  * - 聯絡資訊在 client/src/data/config.ts 的 contactInfo 物件中
  * - 更新 contactInfo 中的連結和信息
  */
 
 import { useState } from 'react';
-import { X, Mail, MessageCircle } from 'lucide-react';
+import { X, Mail, MessageCircle, Phone } from 'lucide-react';
 import { contactInfo } from '@/data/config';
 
 export default function ContactButton() {
@@ -36,25 +36,45 @@ export default function ContactButton() {
               {contactInfo.message}
             </p>
 
-            {/* Placeholder message */}
-            
+            {/* 實際聯絡方式列表 */}
+            <div className="space-y-2">
+              {contactInfo.email && (
+                <div className="flex items-center gap-2">
+                  <Mail size={16} className="text-accent" />
+                  <a
+                    href={`mailto:${contactInfo.email}`}
+                    className="text-sm text-accent hover:underline"
+                  >
+                    {contactInfo.email}
+                  </a>
+                </div>
+              )}
 
-            {/* Quick links (disabled for now) */}
-            <div className="flex gap-2 pt-2">
-              <button
-                disabled
-                className="flex-1 flex items-center justify-center gap-2 py-2 bg-background/50 text-foreground/50 rounded hover:bg-background transition-colors disabled:cursor-not-allowed"
-              >
-                <Mail size={16} />
-                <span className="text-xs">Email</span>
-              </button>
-              <button
-                disabled
-                className="flex-1 flex items-center justify-center gap-2 py-2 bg-background/50 text-foreground/50 rounded hover:bg-background transition-colors disabled:cursor-not-allowed"
-              >
-                <MessageCircle size={16} />
-                <span className="text-xs">Message</span>
-              </button>
+              {contactInfo.phone && (
+                <div className="flex items-center gap-2">
+                  <Phone size={16} className="text-accent" />
+                  <a
+                    href={`tel:${contactInfo.phone.replace(/\s+/g, '')}`}
+                    className="text-sm text-foreground hover:underline"
+                  >
+                    {contactInfo.phone}
+                  </a>
+                </div>
+              )}
+
+              {contactInfo.instagram && (
+                <div className="flex items-center gap-2">
+                  <MessageCircle size={16} className="text-accent" />
+                  <a
+                    href={contactInfo.instagram}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-sm text-accent hover:underline"
+                  >
+                    {contactInfo.instagram}
+                  </a>
+                </div>
+              )}
             </div>
           </div>
         </div>
