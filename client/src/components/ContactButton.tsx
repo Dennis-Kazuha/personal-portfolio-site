@@ -37,15 +37,7 @@ export default function ContactButton() {
             </p>
 
             {/* Placeholder message */}
-            <div className="bg-background/50 border border-border rounded p-3">
-              <p className="text-foreground/70 text-xs">
-                目前這裡顯示 placeholder 文字。要添加真實聯絡方式，請編輯
-                <code className="bg-background px-1 py-0.5 rounded text-accent">
-                  client/src/data/config.ts
-                </code>
-                中的 contactInfo 物件。
-              </p>
-            </div>
+            
 
             {/* Quick links (disabled for now) */}
             <div className="flex gap-2 pt-2">
