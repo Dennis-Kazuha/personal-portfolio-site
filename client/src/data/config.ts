@@ -23,7 +23,7 @@ export const navItems: NavItem[] = [
 ];
 
 export const siteConfig = {
-  title: '個人品牌網站',
+  title: 'AI 流程與教學工作室',
   description: '用 AI 把複雜變簡單，讓程式與數據成為你的助理',
   author: '工程師 & 數據分析師',
   year: new Date().getFullYear(),
