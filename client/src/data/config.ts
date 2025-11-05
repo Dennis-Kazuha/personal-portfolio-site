@@ -57,14 +57,12 @@ export const heroContent = {
  * 修改位置：client/src/data/config.ts
  */
 export const contactInfo = {
-  email: '[TODO] 這裡之後會放 Email 連結',
-  phone: '[TODO] 這裡之後會放電話號碼',
-  linkedin: '[TODO] 這裡之後會放 LinkedIn 連結',
-  twitter: '[TODO] 這裡之後會放 Twitter 連結',
-  github: '[TODO] 這裡之後會放 GitHub 連結',
-  instagram: '[TODO] 這裡之後會放 Instagram 連結',
-  wechat: '[TODO] 這裡之後會放微信帳號',
-  message: '這裡之後會放 Email / LINE / IG 連結',
+  email: 'dennis850713@gmail.com',
+  phone: '+886 952-766-068',
+  linkedin: '[TODO] 若之後有 LinkedIn 再補上連結',
+  github: '[TODO] 若想公開 GitHub，可以填入個人 GitHub 連結',
+  instagram: 'https://www.instagram.com/fearnot_teacher',
+  message: '歡迎透過 Email、電話或 IG 與我聯絡。',
 };
 
 export const sections = {
