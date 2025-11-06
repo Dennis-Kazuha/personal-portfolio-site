@@ -9,7 +9,7 @@
  */
 
 import { useState } from 'react';
-import { X, Mail, MessageCircle, Phone } from 'lucide-react';
+import { X, Mail, MessageCircle, Phone, User } from 'lucide-react';
 import { contactInfo } from '@/data/config';
 
 export default function ContactButton() {
@@ -72,6 +72,20 @@ export default function ContactButton() {
                     className="text-sm text-accent hover:underline"
                   >
                     {contactInfo.instagram}
+                  </a>
+                </div>
+              )}
+
+              {contactInfo.businessCardUrl && (
+                <div className="flex items-center gap-2">
+                  <User size={16} className="text-accent" />
+                  <a
+                    href={contactInfo.businessCardUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-sm text-accent hover:underline"
+                  >
+                    查看電子名片
                   </a>
                 </div>
               )}
