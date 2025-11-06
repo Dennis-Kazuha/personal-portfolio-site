@@ -62,6 +62,7 @@ export const contactInfo = {
   linkedin: '[TODO] 若之後有 LinkedIn 再補上連結',
   github: '[TODO] 若想公開 GitHub，可以填入個人 GitHub 連結',
   instagram: 'https://www.instagram.com/fearnot_teacher',
+  businessCardUrl: '/business-card.png',
   message: '歡迎透過 Email、電話或 IG 與我聯絡。',
 };
 
