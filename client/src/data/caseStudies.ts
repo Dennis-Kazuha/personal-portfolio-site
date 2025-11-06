@@ -24,7 +24,7 @@ export const caseStudies: CaseStudy[] = [
     title: '[TODO] LINE 官方帳號 AI 助理教學案例',
     description: '使用 LINE Bot API 結合 Claude AI，打造個人化的客服助理。涵蓋從零開始的完整實作流程。',
     tags: ['LINE Bot', 'AI 助理', 'Python'],
-    link: '#',
+    link: 'https://www.notion.so/LINE-AI-n8n-ChatGPT-Claude-2a33680be53e8064af68d4cc65e4ba7d?source=copy_link',
   },
   {
     id: 'n8n-automation',
