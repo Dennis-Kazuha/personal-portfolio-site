@@ -54,9 +54,9 @@
   --chart-5: var(--color-blue-800);
   --radius: 0.65rem;
   /* Dark theme - Deep blue/purple with neon accents */
-  --background: #0f0e17;
+  --background: #020617;
   --foreground: #f0f6fc;
-  --card: #141928;
+  --card: #111827;
   --card-foreground: #f0f6fc;
   --popover: #141928;
   --popover-foreground: #f0f6fc;
@@ -71,7 +71,7 @@
   --border: #1e293b;
   --input: #1e293b;
   --ring: #22d3ee;
-  --sidebar: #141928;
+  --sidebar: #111827;
   --sidebar-foreground: #f0f6fc;
   --sidebar-accent: #1e293b;
   --sidebar-accent-foreground: #f0f6fc;
