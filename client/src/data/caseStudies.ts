@@ -49,9 +49,9 @@ export const caseStudies: CaseStudy[] = [
   },
   {
     id: 'ai-integration',
-    title: '[TODO] AI 模型集成與優化',
+    title: 'AI 模型集成與優化',
     description: '深入探討如何將不同的 AI 模型集成到實際應用中，並進行性能優化。',
     tags: ['AI 整合', '模型優化', '最佳實踐'],
-    link: '#',
+    link: 'https://www.notion.so/AI-2a53680be53e808e8045ff220a7a83d8?source=copy_link',
   },
 ];
