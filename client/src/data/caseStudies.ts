@@ -31,14 +31,14 @@ export const caseStudies: CaseStudy[] = [
     title: '[TODO] n8n 工作流自動化實戰',
     description: '透過 n8n 連接多個應用，自動化日常工作流程。包含實際案例和最佳實踐。',
     tags: ['n8n 自動化', '工作流', '無代碼'],
-    link: 'https://www.notion.so/AI-2a53680be53e80729c93f37c422f50c1?source=copy_link',
+    link: '#',
   },
   {
     id: 'exam-prep',
     title: '考前衝刺講義自動生成系統',
     description: '利用 AI 和自動化工具，快速生成個性化的考試複習講義和練習題。',
     tags: ['考前衝刺包', 'AI 生成', '教學工具'],
-    link: '#',
+    link: 'https://www.notion.so/AI-2a53680be53e80729c93f37c422f50c1?source=copy_link',
   },
   {
     id: 'data-analysis',
