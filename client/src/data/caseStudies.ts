@@ -21,7 +21,7 @@ export interface CaseStudy {
 export const caseStudies: CaseStudy[] = [
   {
     id: 'line-bot',
-    title: '[TODO] LINE 官方帳號 AI 助理教學案例',
+    title: 'LINE 官方帳號 AI 助理教學案例',
     description: '使用 LINE Bot API 結合 Claude AI，打造個人化的客服助理。涵蓋從零開始的完整實作流程。',
     tags: ['LINE Bot', 'AI 助理', 'Python'],
     link: 'https://www.notion.so/LINE-AI-n8n-ChatGPT-Claude-2a33680be53e8064af68d4cc65e4ba7d?source=copy_link',
@@ -35,7 +35,7 @@ export const caseStudies: CaseStudy[] = [
   },
   {
     id: 'exam-prep',
-    title: '[TODO] 考前衝刺講義自動生成系統',
+    title: '考前衝刺講義自動生成系統',
     description: '利用 AI 和自動化工具，快速生成個性化的考試複習講義和練習題。',
     tags: ['考前衝刺包', 'AI 生成', '教學工具'],
     link: '#',
